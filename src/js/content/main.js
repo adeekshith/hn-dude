@@ -17,7 +17,7 @@ hnPageTopElement[0].innerHTML = hnPageTopElement[0].innerHTML
         <form action="/over" class="hndude-form">
             votes <input id="hn-dude-votes-input" placeholder="votes" type="number" name="points" class="hndude-form-input" maxlength="4" size="4" min="1" max="9999" value="1">
             page <input id="hn-dude-page-input" placeholder="page" type="number" name="p" class="hndude-form-input" min="1" max="99" value="1">
-            <input type="submit" value="Go!" style="display: inline;">
+            <input type="submit" value="Go!" class="hndude-form-submit">
         </form>
         `
     );
