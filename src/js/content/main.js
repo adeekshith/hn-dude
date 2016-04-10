@@ -14,6 +14,8 @@ hnPageTopElement[0].innerHTML = hnPageTopElement[0].innerHTML
     .concat(
         `
         |
-        <a href=\"#\"> test_string</a>
+        <form action="/over">
+            <input placeholder="votes" type="number" name="points" maxlength="4" size="4" min="0" max="9999">
+        </form>
         `
     );
