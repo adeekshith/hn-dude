@@ -28,6 +28,6 @@ if(getUrlParameterByName("points", document.URL) !== null){
 }
 
 // Assign Current Current Page Number Value To The Form Field
-if(getUrlParameterByName("points", document.URL) !== null){
+if(getUrlParameterByName("p", document.URL) !== null){
     document.getElementById("hn-dude-page-input").value = getUrlParameterByName("p", document.URL);
 }
