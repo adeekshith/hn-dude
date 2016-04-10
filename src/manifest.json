@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_extShortName__",
+  "version": "0.1",
+  "applications": {
+    "gecko": {
+      "id": "hndude@deekshith.in"
+    }
+  },
+  "minimum_chrome_version": "45.0",
+  "minimum_opera_version": "32.0",
+
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "icons": {
+    "16":"images/brand/icon16.png",
+    "19":"images/brand/icon19.png",
+    "48":"images/brand/icon48.png",
+    "128":"images/brand/icon128.png"
+  },
+
+  "author": "Deekshith Allamaneni",
+  "homepage_url": "http://parishod.com/",
+  "content_scripts": [
+    {
+      "matches": ["*://news.ycombinator.com/*"],
+      "all_frames": true,
+      "js": ["js/content/main.js"]
+    }
+  ],
+  "web_accessible_resources": [
+  ],
+  "permissions": [
+    "*://*/*",
+    "*://news.ycombinator.com/*"
+  ]
+}
