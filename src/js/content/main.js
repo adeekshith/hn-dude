@@ -5,7 +5,7 @@
  * Directly Navigate to Given Page Number
  *
  * @author Deekshith Allamaneni
- * @copyright 2016 Docs Online Viewer
+ * @copyright 2016 Deekshith Allamaneni
  */
 "use strict";
 
