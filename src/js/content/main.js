@@ -9,3 +9,11 @@
  */
 "use strict";
 
+var hnPageTopElement = document.getElementsByClassName("pagetop");
+hnPageTopElement[0].innerHTML = hnPageTopElement[0].innerHTML
+    .concat(
+        `
+        |
+        <a href=\"#\"> test_string</a>
+        `
+    );
