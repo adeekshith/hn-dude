@@ -15,9 +15,19 @@ hnPageTopElement[0].innerHTML = hnPageTopElement[0].innerHTML
         `
         |
         <form action="/over" style='display:inline; margin: 0; padding: 0;'>
-            votes <input placeholder="votes" type="number" name="points" style="display: inline;" maxlength="4" size="4" min="1" max="9999" value="1">
-            page <input placeholder="page" type="number" name="p" style="display: inline;" min="1" max="99" value="1">
+            votes <input id="hn-dude-votes-input" placeholder="votes" type="number" name="points" style="display: inline;" maxlength="4" size="4" min="1" max="9999" value="1">
+            page <input id="hn-dude-page-input" placeholder="page" type="number" name="p" style="display: inline;" min="1" max="99" value="1">
             <input type="submit" value="Go!" style="display: inline;">
         </form>
         `
     );
+
+// Assign Current Votes Value To The Form Field
+if(getUrlParameterByName("points", document.URL) !== null){
+    document.getElementById("hn-dude-votes-input").value = getUrlParameterByName("points", document.URL);
+}
+
+// Assign Current Current Page Number Value To The Form Field
+if(getUrlParameterByName("points", document.URL) !== null){
+    document.getElementById("hn-dude-page-input").value = getUrlParameterByName("p", document.URL);
+}
