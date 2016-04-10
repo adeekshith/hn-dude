@@ -7,6 +7,8 @@
 
 .hndude-form-input {
     display: inline;
+    background-color: #FF8939;
+    border: 0;
 }
 
 .hndude-form-submit {
