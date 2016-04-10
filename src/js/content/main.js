@@ -14,9 +14,9 @@ hnPageTopElement[0].innerHTML = hnPageTopElement[0].innerHTML
     .concat(
         `
         |
-        <form action="/over" style='display:inline; margin: 0; padding: 0;'>
-            votes <input id="hn-dude-votes-input" placeholder="votes" type="number" name="points" style="display: inline;" maxlength="4" size="4" min="1" max="9999" value="1">
-            page <input id="hn-dude-page-input" placeholder="page" type="number" name="p" style="display: inline;" min="1" max="99" value="1">
+        <form action="/over" class="hndude-form">
+            votes <input id="hn-dude-votes-input" placeholder="votes" type="number" name="points" class="hndude-form-input" maxlength="4" size="4" min="1" max="9999" value="1">
+            page <input id="hn-dude-page-input" placeholder="page" type="number" name="p" class="hndude-form-input" min="1" max="99" value="1">
             <input type="submit" value="Go!" style="display: inline;">
         </form>
         `
