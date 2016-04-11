@@ -14,10 +14,7 @@
   "default_locale": "en",
   "description": "__MSG_extDescription__",
   "icons": {
-    "16":"images/brand/icon16.png",
-    "19":"images/brand/icon19.png",
-    "48":"images/brand/icon48.png",
-    "128":"images/brand/icon128.png"
+    "64":"images/brand/icon64.png"
   },
 
   "author": "Deekshith Allamaneni",
