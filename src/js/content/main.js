@@ -15,7 +15,7 @@ hnPageTopElement[0].innerHTML = hnPageTopElement[0].innerHTML
         `
         |
         <form action="/over" class="hndude-form">
-            votes > <input id="hn-dude-votes-input" placeholder="votes" type="number" name="points" class="hndude-form-input" maxlength="4" size="4" min="1" max="9999" value="1">
+            points > <input id="hn-dude-points-input" placeholder="votes" type="number" name="points" class="hndude-form-input" maxlength="4" size="4" min="1" max="9999" value="1">
             page: <input id="hn-dude-page-input" placeholder="page" type="number" name="p" class="hndude-form-input" min="1" max="99" value="1">
             <input type="submit" value="Go!" class="hndude-form-submit">
         </form>
@@ -24,7 +24,7 @@ hnPageTopElement[0].innerHTML = hnPageTopElement[0].innerHTML
 
 // Assign Current Votes Value To The Form Field
 if(getUrlParameterByName("points", document.URL) !== null){
-    document.getElementById("hn-dude-votes-input").value = getUrlParameterByName("points", document.URL);
+    document.getElementById("hn-dude-points-input").value = getUrlParameterByName("points", document.URL);
 }
 
 // Assign Current Current Page Number Value To The Form Field

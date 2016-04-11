@@ -8,7 +8,7 @@
     "description":"Extension short name"
   },
   "extDescription": {
-    "message":"Filter Hacker News Articles By Votes and Easy Page Navigation.",
+    "message":"Filter Hacker News Articles By Points and Enable Easy Page Navigation.",
     "description":"Extension description"
   }
 }
