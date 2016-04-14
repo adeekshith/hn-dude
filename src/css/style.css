@@ -14,3 +14,13 @@
 .hndude-form-submit {
     display: none;
 }
+
+@-moz-document url-prefix() {
+    #hn-dude-points-input {
+        width: 45px;
+    }
+
+    #hn-dude-page-input {
+        width: 40px;
+    }
+}
