@@ -13,13 +13,15 @@ This inserts two input fields in the Hacker News top menu to enter points and pa
 - Made for our friends
     - Minimum size
     - Minimum permissions
-    - Minimum performance impact (No background process)
+    - Minimum performance impact
     - Open source
 
 ## Instructions to Use
 
-- Install the extension for [Chrome](https://chrome.google.com/webstore/detail/hn-dude/nclnbjejcfilldajkophjpboocnijcdl)
-- Open [HackerNews](https://news.ycombinator.com/)
+- Install the extension for your browser:
+  - [Chrome](https://chrome.google.com/webstore/detail/hn-dude/nclnbjejcfilldajkophjpboocnijcdl)
+  - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hn-dude/)
+- Open HackerNews: https://news.ycombinator.com/
 - Set Minimum value of Points Or Page Number
 - Press "Enter ↲" on your keyboard <br>
   (You should see all posts with greater than or equal to the points you have entered.)
