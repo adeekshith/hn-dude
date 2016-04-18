@@ -2,9 +2,7 @@
 
 Browser extension to easily filter *Hacker News* articles by **points** and navigate pages by page number.
 
-## Add to:
-### [Chrome](https://chrome.google.com/webstore/detail/hn-dude/nclnbjejcfilldajkophjpboocnijcdl)
-### [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hn-dude/)
+### Add to [Chrome](https://chrome.google.com/webstore/detail/hn-dude/nclnbjejcfilldajkophjpboocnijcdl) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hn-dude/)
 
 [![Screenshot of hackerNews with HN-Buddy](assets/hndude-scr-1-annotated.png?raw=true "HN-Dude Screenshot")](https://chrome.google.com/webstore/detail/hn-dude/nclnbjejcfilldajkophjpboocnijcdl)
 
