@@ -30,7 +30,7 @@ This inserts two input fields in the Hacker News top menu to enter points and pa
 
 ## How It Works?
 
-HN accepts two URL parameters **points** to set minimum number of points for the posts to be shown and **p** sets the page number to show.
+HN accepts URL parameters **points** and **p** using which we can set minimum number of points for the posts and the page number to be shown.
 This browser extension inserts two input fields to the HN nav bar making it easy to set those URL parameters.
 We can also manually set those URL parameters by editing the URL but this extension makes it handy.
 Also it only works for a few seconds when you load Hacker News and does not use up any system resources after that
