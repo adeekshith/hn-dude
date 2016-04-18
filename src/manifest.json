@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "__MSG_extName__",
   "short_name": "__MSG_extShortName__",
-  "version": "0.3",
+  "version": "0.4",
   "applications": {
     "gecko": {
       "id": "hndude@deekshith.in"
@@ -27,6 +27,12 @@
       "js": ["js/libs/dkutil.js", "js/content/main.js"]
     }
   ],
+  "background": {
+    "scripts": [
+      "js/core/background.js"
+    ],
+    "persistent": false
+  },
   "web_accessible_resources": [
   ],
   "permissions": [
