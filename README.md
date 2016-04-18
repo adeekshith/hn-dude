@@ -1,4 +1,4 @@
-# HN-Buddy
+# HN-Dude
 
 Browser extension to easily filter *Hacker News* articles by **points** and navigate pages by page number.
 
